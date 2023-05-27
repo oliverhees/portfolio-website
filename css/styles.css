@@ -31,6 +31,39 @@ body {
   color: var(--text-color);
 }
 
-header{
-  
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 10%;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+span {
+  color: var(--hover-color);
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.navlist a:hover {
+  color: var(--hover-color);
+  text-shadow: 0 0 10px rgba(12, 247, 255, 0.6),
+    0 0 20px rgba(12, 247, 255, 0.6), 0 0 30px rgba(12, 247, 255, 0.6),
+    0 0 40px rgba(12, 247, 255, 0.6), 0 0 70px rgba(12, 247, 255, 0.6),
+    0 0 80px rgba(12, 247, 255, 0.6), 0 0 100px rgba(12, 247, 255, 0.6),
+    0 0 150px rgba(12, 247, 255, 0.6);
 }
